@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISH BLOGS</title>
+
+</head>
+<style>
+    body {
+        font-family: monospace;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(164, 216, 231);
+        
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 14px;
+        top: 12px;
+        border: 2px solid black;
+        border-radius: 9px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 136px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        /* position: sticky; */
+    }
+
+    .left img {
+        position: relative;
+        width: 90px;
+        height: 70px;
+    }
+
+    .mid {
+        display: block;
+        text-align: center;
+        width: 60%;
+        margin: 10px auto;
+        /* border: 2px solid black; */
+    }
+
+    .right {
+        margin-top: 25px;
+        position: absolute;
+        right: 34px;
+        top: 12px;
+        display: inline-block;
+        /* border: 2px solid black; */
+    }
+
+    .navbar {
+        display: inline-block;
+        background-color: black;
+        border-radius: 50px;
+    }
+
+    .navbar li {
+        color: ghostwhite;
+        display: inline-block;
+        margin: 12px;
+        padding: 15px 33px;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: ghostwhite;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        top: 25px;
+        margin: 0px 10px;
+        padding: 4px 14px;
+        background-attachment: white;
+        color: black;
+        border-radius: 15px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        color: grey;
+        background-color: cornflowerblue;
+    }
+
+    input[type='text'] {
+        height: 30px;
+        width: 140px;
+        text-align: center;
+        border: 2px solid black;
+    }
+
+    svg {
+        height: 25px;
+        width: 30px;
+
+    }
+
+    .leftbox {
+        margin: 12px;
+        padding: 10px;
+        top: 100px;
+        height: 900px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .leftbox h3 {
+        font-weight: bold;
+        border: 2px solid red;
+        text-align: center;
+    }
+
+    .leftbox li {
+        margin: 5px;
+        padding: 10px;
+        border: 2px solid green;
+
+    }
+    .content{
+        display: flex;
+    }
+
+    .principal{
+        display: inline-block;
+    }
+
+
+    .school {
+        
+        
+        /* padding: 25px;
+        margin: 25px; */
+        border: 2px solid blue;
+        margin-top: 12px;
+        position: absolute;
+        right: 34px;
+        top: 125px;
+        display: inline-block;
+    }
+
+    #box1     {
+           height: 500px;
+        width: 300px;
+        /* padding: 25px;
+        margin: 25px; */
+        border: 2px solid blue;
+        margin-top: 12px;
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        display: inline-block;  
+    }
+    .card img{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+
+    }
+    
+    #box2{
+        height: 500px;
+        width: 300px;
+        /* padding: 25px;
+        margin: 25px; */
+        border: 2px solid blue;
+        margin-top: 12px;
+        position: absolute;
+        right: 400px;
+        top: 80px;
+        display: inline-block;  
+    }
+    
+    #box3{
+        height: 500px;
+        width: 300px;
+        /* padding: 25px;
+        margin: 25px; */
+        border: 2px solid blue;
+        margin-top: 12px;
+        position: absolute;
+        right: 800px;
+        top: 80px;
+        display: inline-block;  
+    }
+   
+    #box4{
+        height: 500px;
+        width: 300px;
+        /* padding: 25px;
+        margin: 25px; */
+        border: 2px solid blue;
+        margin-top: 12px;
+        position: absolute;
+        right: 400px;
+        top: 700px;
+        display: inline-block;
+        
+    }
+   
+    #box5{
+        height: 500px;
+        width: 300px;
+        /* padding: 25px;
+        margin: 25px; */
+        border: 2px solid blue;
+        margin-top: 12px;
+        position: absolute;
+        right: 800px;
+        top: 700px;
+        display: inline-block;
+        
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="IMAGES/krishlogo.jpg" alt="error">
+            KRISH BLOGS
+        </div>
+        <div class="mid">
+            <!-- mid for nav bar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">Email Us</button>
+            <input type="text" placeholder="Search">
+            <svg width="20" height="20" viewBox="3 3 14 14" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8.5 3a5.5 5.5 0 014.23 9.02l4.12 4.13a.5.5 0 01-.63.76l-.07-.06-4.13-4.12A5.5 5.5 0 118.5 3zm0 1a4.5 4.5 0 100 9 4.5 4.5 0 000-9z">
+                </path>
+            </svg>
+        </div>
+    </header>
+    <section class="content">
+
+        <div class="principal">
+            <div class="leftbox">
+            <h3> this heading is here</h3>
+            <ul>
+                <li id="step-1">KRISH</li>
+                <li id="step-2">PRACH1</li>
+                <li id="step-3">SWEETY</li>
+                <li id="step-4">NITIN</li>
+                <li id="step-5">DADI</li>
+                <li id="step-6">SHAH</li>
+            </ul>
+        </div>
+        
+        <div class="school">
+            <div class="card" id="box1">
+                <h2>Qualifications</h2>
+                <img src="IMAGES/krish2.jpg" alt="error">
+                <p> B-Tech in <span>Computer engineering</span> from <span>D J SANGHVI</span></p>
+                <p><span>WEB DEVELOPER</span> </p>
+                <p><span>APP DEVELOPER</span> </p>
+            </div>
+            <div class="card" id="box2">
+                <h2>Music</h2>
+                <img src="IMAGES/krish3.jpg" alt="error">
+                
+                <p> </p>
+            </div>
+            <div class="card" id="box3">
+                <h2>Travel</h2>
+                <img src="IMAGES/krish1.jpg" alt="error">
+                <p></p>
+            </div>
+            <div class="card" id="box4">
+                <h2>Sports</h2>
+                <img src="IMAGES/krish2.jpg" alt="error">
+                <p></p>
+            </div>
+            <div class="card" id="box5">
+                <h2>Dance</h2>
+                <img src="IMAGES/krish4.jpg" alt="error">
+                <p></p>
+            </div>
+        </div>
+    </section>
+        
+    </div>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email :</label>
+                    <input type="text" name="name" id="name1" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone :</label>
+                    <input type="text" name="name" id="name2" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Feedback :</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Review"> </textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+           Copyright &copy; www.MyOnlineMeal.com. All rights reserved.
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

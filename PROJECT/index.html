@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Fitness</title>
+
+</head>
+<style>
+    body {
+        font-family: monospace;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg1.webp');
+        background-size: 200vh;
+        height: 1000px;
+
+    }
+
+    .left {
+      display: inline-block;
+        position: absolute;
+        left: 14px;
+        top: 12px;
+        border: 2px solid black;
+        border-radius: 9px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 136px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        /* position: sticky; */
+    }
+
+    .left img {
+        position: relative;
+        width: 100px;
+    }
+
+    .mid {
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin: 10px auto;
+        /* border: 2px solid black; */
+    }
+
+    .right {
+        margin-top: 25px;
+        position: absolute;
+        right: 34px;
+        top: 12px;
+        display: inline-block;
+        /* border: 2px solid black; */
+    }
+
+    .navbar {
+        display: inline-block;
+        background-color: black;
+        border-radius: 50px;
+    }
+
+    .navbar li {
+        color: ghostwhite;
+        display: inline-block;
+        margin: 12px;
+        padding: 9px 13px;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: ghostwhite;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        top: 25px;
+        margin: 0px 10px;
+        padding: 4px 14px;
+        background-attachment: white;
+        color: black;
+        border-radius: 15px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .container {
+        margin: 90px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        
+
+        border: 2px solid white;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        border: 2px solid black;
+        /* margin: 2px auto; */
+        font-size: 20px;
+        border-radius: 10px;
+
+    }
+
+    .container h1 {
+        background-attachment: black;
+        color: white;
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 500px;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/logo.webp" alt="error">
+            Krish Fitness
+        </div>
+        <div class="mid">
+            <!-- mid for nav bar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">Email Us</button>
+            <button class="btn">Contact Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> JOIN FAST TO CLAIM DISCOUNT</h1>
+        <!-- learn backend -->
+        <form action="nonaction.php">
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your Name"><br>
+                <input type="text" placeholder="Enter your Age"><br>
+                <input type="text" placeholder="Enter your Gender"><br>
+                <input type="text" placeholder="Enter your Locality"><br>
+                <input type="text" placeholder="Enter your Email"><br>
+                <input type="text" placeholder="Enter your Contact Number"><br>
+                <button class="btn">Submit</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

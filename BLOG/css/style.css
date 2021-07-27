@@ -1,0 +1,330 @@
+body {
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    top: 12px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 136px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    /* position: sticky; */
+}
+
+.left img {
+    position: relative;
+    width: 90px;
+    height: 70px;
+}
+
+.mid {
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+}
+
+.right {
+    margin-top: 25px;
+    position: absolute;
+    right: 34px;
+    top: 12px;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.navbar {
+    display: inline-block;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.navbar li {
+    color: ghostwhite;
+    display: inline-block;
+    margin: 12px;
+    padding: 15px 33px;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: ghostwhite;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    top: 25px;
+    margin: 0px 10px;
+    padding: 4px 14px;
+    background-attachment: white;
+    color: black;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: grey;
+    background-color: cornflowerblue;
+}
+
+input[type='text'] {
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+svg {
+    height: 25px;
+    width: 30px;
+
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+.home h1{
+    /* border: 5px solid black; */
+
+    /* position: relative;   */
+    animation-name: krish1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+       
+
+    }
+    @keyframes krish1 {
+        from {
+            font-size: 20px;
+        }
+
+        to {
+            font-size: 50px;
+        }
+    }
+    
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(../IMAGES/bg3.webp) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.50;
+    
+}
+#home h1{
+    color: white;
+    text-align: center;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Playball', cursive;
+
+}
+.h-primary{
+    text-shadow: -3px -2px 2px white;
+    font-family: 'Playball', cursive;
+    font-size: 3.8rem;
+    padding: 8px;
+}    
+/* .btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px 17px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: burlywood;
+    
+} */
+.center{
+    text-align: center;
+}
+.self-container{
+    background: url(../IMAGES/bg3.webp) no-repeat center center/cover;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+
+}
+#self{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+#self .box{
+    /* height: 400px;
+    width: 400px; */
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(224, 176, 176);
+    
+}
+#self .box img{
+    display: block;
+    margin: auto;
+    height: 170px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-color: 2px solid green;
+    
+}
+#self .box p{
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+/* contact section  */
+#contact{
+    position: relative;
+    width: 100%;
+    /* text-align: center;
+    justify-content: center; */
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../IMAGES/contact_us_2.jpg');
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Playball', cursive;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    font-size: 20px;
+   
+
+}
+.self-container img{
+    transition: all 3s ease .3s;
+}
+.self-container img:hover{
+    
+       
+    height: 600px;
+    width: 300px;
+    border-radius: 100px;
+    border-color: 10px solid green;
+}
+.favs{
+    background: url(../IMAGES/bg3.webp) no-repeat center center/cover;
+    height:450px;
+    width: auto;
+    border: 2px solid black;
+    background-color: rgb(164, 216, 231);
+    font-size: 20px;
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 150px 150px;
+    grid-gap: 1rem;
+}
+.box1{
+    text-align: center;
+    justify-items: center;
+    margin: 2px;
+    border-radius: 23px;
+    background-color: rgb(224, 176, 176);
+    font-size: 20px;
+   border: 2px solid rgb(190, 27, 27);
+    padding: 23px;
+
+}
+.box1:nth-child(2){
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+}
+.box1:nth-child(3) p{
+    animation-name: krish2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+}
+@keyframes krish2 {
+    from {
+        font-size: 4px;
+    }
+
+    to {
+        font-size: 28px;
+    }
+}
+.favs .box1 p{
+    font-size: 30px;
+}

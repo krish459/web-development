@@ -1,0 +1,42 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+
+/* home  */
+#home{
+    height: 400px;
+    flex-direction: column;
+    padding: 3px 68px;
+}
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 13px;
+
+}
+
+.h-primary{
+    font-size: 26px;
+}
+
+
+/* serrvices section  */
+#services{
+    flex-direction: column;
+
+}
+
+/* clients section  */
+
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+/* contact us  */
+
+
+/* footer  */
