@@ -4,7 +4,7 @@ all files of practice , tasks and projects
 ![blog1](https://user-images.githubusercontent.com/80153170/127729951-2a6e11b4-84e5-43a8-b319-39d71ab72fbb.png)
 ![blog2](https://user-images.githubusercontent.com/80153170/127730032-11b8f0e4-0aac-491d-88db-048ecd4f56ae.png)
 ![blog3](https://user-images.githubusercontent.com/80153170/127730044-52dd3c95-07e1-4ddc-8925-adfaa128fa16.png)
-![blog4](https://user-images.githubusercontent.com/80153170/127730053-2fecd191-d6aa-4d76-8640-3a47a1c825e2.png)
+![blog4](https://usemages.githubusercontent.com/80153170/127730053-2fecd191-d6aa-4d76-8640-3a47a1c825e2.png)
 ---
 ---
 #### similar projects
