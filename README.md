@@ -6,6 +6,10 @@ all files of practice , tasks and projects
 ![blog3](https://user-images.githubusercontent.com/80153170/127730044-52dd3c95-07e1-4ddc-8925-adfaa128fa16.png)
 ![blog4](https://user-images.githubusercontent.com/80153170/127730053-2fecd191-d6aa-4d76-8640-3a47a1c825e2.png)
 ---
+## Blog (Responsive screen to 320px )(phone)
+![res 1](https://user-images.githubusercontent.com/80153170/128046917-1f97814d-6e50-4262-a865-099603c33dfe.png)
+![res 2](https://user-images.githubusercontent.com/80153170/128046993-9e946215-2e60-4f6b-903d-9862a4e2a8fa.png)
+
 ---
 #### similar projects
 ## Food Delivery Website 
